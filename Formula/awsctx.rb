@@ -5,13 +5,13 @@
 class Awsctx < Formula
   desc "Fast AWS profile and region switcher"
   homepage "https://github.com/yetmike/awsctx"
-  version "0.0.8"
+  version "0.0.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/yetmike/awsctx/releases/download/v0.0.8/awsctx_0.0.8_darwin_amd64.tar.gz"
-      sha256 "f4f2363258cc513d8593c65eb4bbff8e1065fdc29a592f881b90d84cec5295a9"
+      url "https://github.com/yetmike/awsctx/releases/download/v0.0.1/awsctx_0.0.1_darwin_amd64.tar.gz"
+      sha256 "e852c5d5aa359d278b663684efe3b79268030fb778511aa93e9ff0e9213c2f32"
 
       def install
         bin.install "awsctx"
@@ -20,8 +20,8 @@ class Awsctx < Formula
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/yetmike/awsctx/releases/download/v0.0.8/awsctx_0.0.8_darwin_arm64.tar.gz"
-      sha256 "569385953352b1d006f6ea09ac76fff7b7098844e864e5140f384d37cdc51b6d"
+      url "https://github.com/yetmike/awsctx/releases/download/v0.0.1/awsctx_0.0.1_darwin_arm64.tar.gz"
+      sha256 "69c61a3fe061996790494c491a8f594026cc123665e237372b3172d04b8e5c8b"
 
       def install
         bin.install "awsctx"
@@ -33,8 +33,8 @@ class Awsctx < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/yetmike/awsctx/releases/download/v0.0.8/awsctx_0.0.8_linux_amd64.tar.gz"
-      sha256 "513a9ae5688eb639afcb9e7d6e2e28b3427a4063967043134b51bd06e2650455"
+      url "https://github.com/yetmike/awsctx/releases/download/v0.0.1/awsctx_0.0.1_linux_amd64.tar.gz"
+      sha256 "63c65cf38aa8469e7d14f238958492584d4da874c975279e0b7e1c6ba3c933b9"
       def install
         bin.install "awsctx"
         bash_completion.install "bash_autocomplete" => "awsctx"
@@ -42,8 +42,8 @@ class Awsctx < Formula
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/yetmike/awsctx/releases/download/v0.0.8/awsctx_0.0.8_linux_arm64.tar.gz"
-      sha256 "33b617ed59b7976194e1587815cffdef4b8f6072a23b8d42134355d5bb324a06"
+      url "https://github.com/yetmike/awsctx/releases/download/v0.0.1/awsctx_0.0.1_linux_arm64.tar.gz"
+      sha256 "fee70be9976ecefd4fec357f4140baf190a267f23e85cbe111e89ab488520417"
       def install
         bin.install "awsctx"
         bash_completion.install "bash_autocomplete" => "awsctx"
