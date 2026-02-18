@@ -3,13 +3,6 @@ class Summarize < Formula
   homepage "https://github.com/steipete/summarize"
   license "MIT"
 
-  on_macos do
-    on_arm do
-      url "https://github.com/yetmike/summarize/releases/download/v0.11.2/summarize-macos-arm64-v0.11.2.tar.gz"
-      sha256 ""
-    end
-  end
-
   on_linux do
     on_intel do
       url "https://github.com/yetmike/summarize/releases/download/v0.11.2/summarize-linux-x64-v0.11.2.tar.gz"
