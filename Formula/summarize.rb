@@ -13,11 +13,11 @@ class Summarize < Formula
   on_linux do
     on_intel do
       url "https://github.com/yetmike/summarize/releases/download/v0.11.2/summarize-linux-x64-v0.11.2.tar.gz"
-      sha256 "47ff1960710057629be67e250287191deaefdacfd70f0eb6b2804c2bdb56b541"
+      sha256 "4d127466d78052c477f8504524db39e632c0d54777b82cd6be52e9db4253d988"
     end
     on_arm do
       url "https://github.com/yetmike/summarize/releases/download/v0.11.2/summarize-linux-arm64-v0.11.2.tar.gz"
-      sha256 ""
+      sha256 "59f1eb0bd658495a651ed76152fabef9e26011172c713f5af9829911e6e67705"
     end
   end
 
